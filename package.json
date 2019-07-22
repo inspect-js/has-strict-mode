@@ -4,7 +4,9 @@
 	"description": "Does the current JS environment have strict mode? ES5+ should; but let's not assume.",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"tests-only": "node test",
+		"test": "npm run tests-only",
+		"posttest": "npx aud"
 	},
 	"repository": {
 		"type": "git",
@@ -24,5 +26,8 @@
 	"bugs": {
 		"url": "https://github.com/ljharb/has-strict-mode/issues"
 	},
-	"homepage": "https://github.com/ljharb/has-strict-mode#readme"
+	"homepage": "https://github.com/ljharb/has-strict-mode#readme",
+	"devDependencies": {
+		"tape": "^4.11.0"
+	}
 }
