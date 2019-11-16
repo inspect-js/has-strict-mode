@@ -8,7 +8,9 @@
 		"lint": "eslint .",
 		"tests-only": "node test",
 		"test": "npm run tests-only",
-		"posttest": "npx aud"
+		"posttest": "npx aud",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -34,7 +36,15 @@
 	"homepage": "https://github.com/ljharb/has-strict-mode#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^13.1.1",
+		"auto-changelog": "^1.16.2",
 		"eslint": "^5.16.0",
 		"tape": "^4.11.0"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false
 	}
 }
