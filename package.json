@@ -4,6 +4,7 @@
 	"description": "Does the current JS environment have strict mode? ES5+ should; but let's not assume.",
 	"main": "index.js",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
 		"lint": "eslint .",
 		"tests-only": "node test",
@@ -35,9 +36,10 @@
 	},
 	"homepage": "https://github.com/ljharb/has-strict-mode#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^13.1.1",
+		"@ljharb/eslint-config": "^15.0.1",
 		"auto-changelog": "^1.16.2",
-		"eslint": "^5.16.0",
+		"eslint": "^6.6.0",
+		"safe-publish-latest": "^1.1.4",
 		"tape": "^4.11.0"
 	},
 	"auto-changelog": {
