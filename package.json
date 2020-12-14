@@ -15,7 +15,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ljharb/has-strict-mode.git"
+		"url": "git+https://github.com/inspect-js/has-strict-mode.git"
 	},
 	"keywords": [
 		"strict mode",
@@ -31,9 +31,9 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ljharb/has-strict-mode/issues"
+		"url": "https://github.com/inspect-js/has-strict-mode/issues"
 	},
-	"homepage": "https://github.com/ljharb/has-strict-mode#readme",
+	"homepage": "https://github.com/inspect-js/has-strict-mode#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
 		"aud": "^1.1.0",
