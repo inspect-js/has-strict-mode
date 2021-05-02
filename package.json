@@ -4,7 +4,8 @@
 	"description": "Does the current JS environment have strict mode? ES5+ should; but let's not assume.",
 	"main": "index.js",
 	"scripts": {
-		"prepublish": "safe-publish-latest",
+		"prepublishOnly": "safe-publish-latest",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"pretest": "npm run lint",
 		"lint": "eslint --ext=js,mjs .",
 		"tests-only": "nyc tape 'test/**/*.js'",
