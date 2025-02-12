@@ -1,6 +1,6 @@
 {
 	"name": "has-strict-mode",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Does the current JS environment have strict mode? ES5+ should; but let's not assume.",
 	"main": "index.js",
 	"scripts": {

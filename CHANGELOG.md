@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.0](https://github.com/inspect-js/has-strict-mode/compare/v1.0.1...v1.1.0) - 2025-02-11
+
+### Commits
+
+- [actions] reuse common workflows [`cb263fc`](https://github.com/inspect-js/has-strict-mode/commit/cb263fcd3ace28e3ab0f7090b76cf8d378987cd8)
+- [meta] use `npmignore` to autogenerate an npmignore file [`1cd5b41`](https://github.com/inspect-js/has-strict-mode/commit/1cd5b41a10cd85b4a902d739181ba718d050fa46)
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`67694bd`](https://github.com/inspect-js/has-strict-mode/commit/67694bdccc7e352634285fd5b05a0d7642fad614)
+- [actions] split out node 10-20, and 20+ [`98b86ce`](https://github.com/inspect-js/has-strict-mode/commit/98b86ce0391fc0dd8a691cd1e1fba087dce561f4)
+- [readme] add github actions/codecov badges; update URLs [`7b88d99`](https://github.com/inspect-js/has-strict-mode/commit/7b88d99b823f9a379c9b1f7d49b31418487a3cc1)
+- [New] add types [`5c97439`](https://github.com/inspect-js/has-strict-mode/commit/5c97439d2a244dc8ab6afdefbc1913ebd703e36c)
+- [actions] update rebase action to use reusable workflow [`c3f5176`](https://github.com/inspect-js/has-strict-mode/commit/c3f51766693741f18fcaca530902de6fdc0f27dc)
+- [actions] update codecov uploader [`d831d2f`](https://github.com/inspect-js/has-strict-mode/commit/d831d2f914d56a15ce70efa9cbb7ea7235e4c8f4)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `in-publish`, `tape` [`8493fc8`](https://github.com/inspect-js/has-strict-mode/commit/8493fc81e39f160cb37b929ab28a6e73df79e096)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `safe-publish-latest`, `tape` [`311bdc3`](https://github.com/inspect-js/has-strict-mode/commit/311bdc3ec67f78031df802ddc78f6427e9220119)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest`, `tape` [`157f281`](https://github.com/inspect-js/has-strict-mode/commit/157f2813209de61acba5b6f061f192cf43dd8801)
+- [Dev Deps] update `@ljharb/eslint-config`, `auto-changelog`, `npmignore`, `tape` [`1012aa3`](https://github.com/inspect-js/has-strict-mode/commit/1012aa3f0218423a1bf68588c4922650ccbb5195)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `tape` [`4251bed`](https://github.com/inspect-js/has-strict-mode/commit/4251bed5de8e7d5f5c43606a666276ca3b33349e)
+- [meta] add missing `engines.node` [`d31a790`](https://github.com/inspect-js/has-strict-mode/commit/d31a790855de88c99875d74ed9e74f0051dbd639)
+- [Tests] replace `aud` with `npm audit` [`dc2517d`](https://github.com/inspect-js/has-strict-mode/commit/dc2517d82dac4778329ee5d342a63595cee65f97)
+- [meta] use `prepublishOnly` script for npm 7+ [`1c59379`](https://github.com/inspect-js/has-strict-mode/commit/1c59379c0f3253168b7ee8feb23ea9d398751cd5)
+- [Dev Deps] add missing peer dep [`5fd2f03`](https://github.com/inspect-js/has-strict-mode/commit/5fd2f03c85a4df5a0772d0f3b1ae61ad7206c03f)
+
 ## [v1.0.1](https://github.com/inspect-js/has-strict-mode/compare/v1.0.0...v1.0.1) - 2020-12-14
 
 ### Commits
